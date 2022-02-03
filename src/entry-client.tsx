@@ -1,0 +1,1 @@
+hydrate(() => <StartClient />, document);
