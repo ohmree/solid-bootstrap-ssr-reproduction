@@ -5,7 +5,7 @@ import autoImport from 'unplugin-auto-import/vite';
 export default defineConfig({
   plugins: [
     solid({
-      ssr: false,
+      ssr: true,
     }),
     autoImport({
       eslintrc: {
